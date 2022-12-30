@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+s_api_gateway:
+container_name: c_api_gateway
+image: rukiyeBasboga/apigateway
+build:
+context: .
+dockerfile: APIGateway/Dockerfile
+
+  
